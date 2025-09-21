@@ -101,7 +101,9 @@ Pie chart showing the distribution of delay causes:
 
 ## 📈 Visualizations
 
-### Cases by Country Map
+
+### **1. Correlation Matrix Heatmap**
+Visual analysis of relationships between different delay types, flight volumes, and cancellations to identify patterns and dependencies
 ![Cases by Country Map](Cases%20by%20Country%20Map.png)
 
 ### Cumulative Cases Dashboard
