@@ -75,50 +75,32 @@ The analysis explores:
 - **Delay Causes**: Relative impact of weather, carrier issues, system delays, etc.
 
 ---
-
 ##  Key Visualizations
 
-### **1. Correlation Matrix Heatmap**
-
-
-Visual analysis of relationships between different delay types, flight volumes, and cancellations to identify patterns and dependencies
-
-### **2. Top Airlines by Delay Rate**
-Comparative ranking of carriers based on percentage of delayed flights, highlighting best and worst performing airlines
-
-### **3. Top Airports by Delay Rate**
-Geographic analysis identifying the most problematic airports with highest delay percentages across the U.S.
-
-### **4. Delay Types Distribution**
-
-Pie chart showing the distribution of delay causes:
-- Carrier/airline issues
-- Weather conditions
-- National Airspace System (NAS)
-- Security delays
-- Late aircraft arrivals
-
----
-
-
-## 📈 Visualizations
-
-
-### **1. Correlation Matrix Heatmap**
-Visual analysis of relationships between different delay types, flight volumes, and cancellations to identify patterns and dependencies
+### **1. Cases by Country Map**
 ![Cases by Country Map](Cases%20by%20Country%20Map.png)
 
-### Cumulative Cases Dashboard
+Interactive world map showing the geographic distribution of COVID-19 cases across different countries, highlighting the global spread of the pandemic.
+
+### **2. Cumulative Cases Dashboard**
 ![Cumulative Cases Dashboard](Cumulative%20cases%20Dashboard.png)
 
-### New COVID Cases Timeline
+Comprehensive dashboard tracking the accumulation of COVID-19 cases over time, showing growth patterns and trend analysis.
+
+### **3. New COVID Cases Timeline**
 ![New Covid Cases](New%20Covid%20Cases.png)
 
-### Population and Life Expectancy Analysis
+Time series visualization displaying daily/weekly new case counts, helping identify waves and peaks throughout the pandemic.
+
+### **4. Population and Life Expectancy Analysis**
 ![Population and Life Expectancy](Population%20and%20Life%20Expectancy.png)
 
-### Total Cases by Continent
+Analysis exploring the correlation between population demographics, life expectancy, and COVID-19 impact across different regions.
+
+### **5. Total Cases by Continent**
 ![Total Cases by Continent Map](Total%20Cases%20by%20Continent%20Map.png)
+
+Continental breakdown showing the distribution of total COVID-19 cases across different world regions.
 
 ##  Project Structure
 
