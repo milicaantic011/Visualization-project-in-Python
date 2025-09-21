@@ -98,6 +98,24 @@ Pie chart showing the distribution of delay causes:
 
 ---
 
+
+## 📈 Visualizations
+
+### Cases by Country Map
+![Cases by Country Map](Cases%20by%20Country%20Map.png)
+
+### Cumulative Cases Dashboard
+![Cumulative Cases Dashboard](Cumulative%20cases%20Dashboard.png)
+
+### New COVID Cases Timeline
+![New Covid Cases](New%20Covid%20Cases.png)
+
+### Population and Life Expectancy Analysis
+![Population and Life Expectancy](Population%20and%20Life%20Expectancy.png)
+
+### Total Cases by Continent
+![Total Cases by Continent Map](Total%20Cases%20by%20Continent%20Map.png)
+
 ##  Project Structure
 
 ```
