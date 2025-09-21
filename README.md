@@ -1,78 +1,110 @@
-#  Airline Delays Exploratory Data Analysis
+# COVID-19 Data Visualization Project
 
-**An in-depth exploratory data analysis of U.S. airline delays comparing December 2019 vs December 2020 performance using Python data analysis libraries.**
-
----
-
-##  Project Overview
-
-This project analyzes airline delay patterns in the United States, focusing on the comparison between **December 2019** (pre-pandemic) and **December 2020** (during pandemic) to understand how COVID-19 impacted flight operations.
+## Overview
+This project focuses on applying Python libraries for **data visualization**, including **Seaborn**, **Plotly**, and **Dash** to analyze the global COVID-19 pandemic.
+The project is divided into several parts that, when combined, form a comprehensive analysis of pandemic trends worldwide.
 
 ---
 
-##  Dataset Description
-
-| **Attribute** | **Details** |
-|--------------|------------|
-| **Source** | [Kaggle Airline Delays Dataset](https://www.kaggle.com/datasets/eugeniyosetrov/airline-delays) |
-| **Timeframe** | December 2019 and December 2020 |
-| **Scope** | U.S. domestic flights |
-| **Records** | 3,351 flight records |
-
-### **Key Features:**
-- `arr_flights` — Total arrival flights
-- `arr_del15` — Flights delayed by 15+ minutes
-- `carrier_ct` — Carrier-related delay counts
-- `weather_ct` — Weather-related delay counts
-- `nas_ct` — National Airspace System delay counts
-- `security_ct` — Security-related delay counts
-- `late_aircraft_ct` — Late aircraft delay counts
-- `arr_cancelled` — Cancelled flights
-- `arr_diverted` — Diverted flights
+##  Development Setup
+- **Programming Language**: Python 3.x
+- **Libraries Used**: `pandas`, `matplotlib`, `seaborn`, `plotly`, `dash`
+- **Development Environment**: Visual Studio Code
+- **Final Output**: Jupyter Notebook (`*.ipynb` format)
 
 ---
 
-##  Tech Stack
+## Dataset
+The dataset is sourced from the GitHub repository of **[Our World In Data](https://github.com/owid/covid-19-data)**, which provides a comprehensive knowledge base on the **COVID-19 pandemic (2020 onward)**.
 
-| **Component** | **Technology** |
-|--------------|---------------|
-| **Language** | Python 3.11 |
-| **Environment** | Jupyter Notebook |
+For the purposes of this project:
+- Unnecessary columns were removed
+- Geographic coordinates were added for mapping visualizations
 
-### **Libraries Used:**
-- **`pandas`** — Data manipulation and analysis
-- **`numpy`** — Numerical computing
-- **`plotly`** — Interactive visualizations
-- **`os`** — File system operations
+**File used**: `project_1_python.csv`
 
 ---
 
-##  Analysis Goals
-
-1. **Delay Pattern Analysis**  
-   Identify main contributors to flight disruptions
-
-2. **Carrier Performance Comparison**  
-   Compare delay performance across different airlines
-
-3. **Geographic Analysis**  
-   Explore delay patterns across U.S. airports
-
-4. **Pandemic Impact Assessment**  
-   Compare 2019 vs 2020 flight operations
-
-5. **Root Cause Analysis**  
-   Determine primary causes of delays and cancellations
+## Data Cleaning
+During the project, **rows with missing values (`NaN`) were removed** for the selected metrics.
+This ensured that all visualizations only included valid and complete data for accurate representation.
 
 ---
 
-##  Key Insights
+## 📋 Dataset Features
 
-The analysis explores:
-- **Pandemic Impact**: How COVID-19 affected flight volumes and delay patterns
-- **Carrier Performance**: Which airlines had best/worst on-time performance
-- **Geographic Patterns**: Delay hotspots across U.S. airports
-- **Delay Causes**: Relative impact of weather, carrier issues, system delays, etc.
+| Feature | Description |
+|---------|-------------|
+| `iso_code` | ISO country code |
+| `continent` | Continent of the country |
+| `location` | Country name |
+| `total_cases` | Total number of reported cases |
+| `new_cases` | Newly reported cases (per day) |
+| `total_deaths` | Total number of deaths |
+| `new_deaths` | Newly reported deaths (per day) |
+| `hosp_patients` | Number of hospitalized patients |
+| `total_tests` | Total number of performed tests |
+| `new_tests` | Newly performed tests (per day) |
+| `tests_per_case` | Tests conducted per detected case |
+| `total_vaccinations` | Total vaccinations administered |
+| `people_vaccinated` | People vaccinated (at least one dose) |
+| `people_fully_vaccinated` | People fully vaccinated |
+| `total_boosters` | Booster doses administered |
+| `new_vaccinations` | New vaccinations administered (per day) |
+| `population` | Population of the country |
+| `median_age` | Median age of the population |
+| `gdp_per_capita` | Gross Domestic Product per capita |
+| `life_expectancy` | Life expectancy in the country |
+| `latitude` | Country latitude |
+| `longitude` | Country longitude |
+
+---
+
+## Problem Statement
+The project aims to **analyze the course of the COVID-19 pandemic worldwide**, focusing on:
+- Dynamics of cases and deaths over time
+- Testing rates and effectiveness
+- Hospitalization patterns
+- Vaccination progress across countries
+- Demographic factors affecting pandemic impact
+
+---
+
+## Visualizations
+
+### 1. Cases by Country Map
+![Cases by Country Map](Cases%20by%20Country%20Map.png)
+Geographic distribution of COVID-19 cases worldwide.
+
+### 2. Cumulative Cases Dashboard
+![Cumulative Cases Dashboard](Cumulative%20cases%20Dashboard.png)
+Interactive dashboard showing cumulative case trends over time.
+
+### 3. New COVID Cases Timeline
+![New Covid Cases](New%20Covid%20Cases.png)
+Daily new case counts showing pandemic waves and peaks.
+
+### 4. Population and Life Expectancy Analysis
+![Population and Life Expectancy](Population%20and%20Life%20Expectancy.png)
+Correlation between demographic factors and COVID-19 impact.
+
+### 5. Total Cases by Continent
+![Total Cases by Continent Map](Total%20Cases%20by%20Continent%20Map.png)
+Continental breakdown of total COVID-19 cases.
+
+---
+
+## 💡 Solution
+A comprehensive data visualization and analysis notebook developed in **Visual Studio Code**, with the final solution exported as a `*.ipynb` file containing:
+- Interactive visualizations using Plotly
+- Statistical analysis with Seaborn
+- Geographic mapping of pandemic spread
+- Time series analysis of case trends
+- Demographic correlation studies
+
+---
+
+## 📁 Project Structure
 
 ---
 ##  Key Visualizations
