@@ -1,20 +1,182 @@
-COVID-19 Data Visualization Project
-A comprehensive data visualization project analyzing COVID-19 pandemic data using Python libraries including Seaborn, Plotly, and Dash.
-Tech Stack
+#  Airline Delays Exploratory Data Analysis
 
-Language: Python
-Libraries: pandas, matplotlib, seaborn, plotly, dash
-Environment: Visual Studio Code
-Output: Jupyter Notebook (*.ipynb)
+**An in-depth exploratory data analysis of U.S. airline delays comparing December 2019 vs December 2020 performance using Python data analysis libraries.**
 
-Dataset
-COVID-19 pandemic data from Our World In Data GitHub repository, cleaned and enhanced with geographic coordinates.
+---
 
-Data Processing
-Removed unnecessary columns
-Added geographic coordinates
-Cleaned missing values (NaN) for accurate visualizations
-Final dataset: project_1_python.csv
+##  Project Overview
 
-Features
-Interactive visualizations and dashboards exploring COVID-19 trends and patterns using multiple Python visualization libraries.
+This project analyzes airline delay patterns in the United States, focusing on the comparison between **December 2019** (pre-pandemic) and **December 2020** (during pandemic) to understand how COVID-19 impacted flight operations.
+
+---
+
+##  Dataset Description
+
+| **Attribute** | **Details** |
+|--------------|------------|
+| **Source** | [Kaggle Airline Delays Dataset](https://www.kaggle.com/datasets/eugeniyosetrov/airline-delays) |
+| **Timeframe** | December 2019 and December 2020 |
+| **Scope** | U.S. domestic flights |
+| **Records** | 3,351 flight records |
+
+### **Key Features:**
+- `arr_flights` — Total arrival flights
+- `arr_del15` — Flights delayed by 15+ minutes
+- `carrier_ct` — Carrier-related delay counts
+- `weather_ct` — Weather-related delay counts
+- `nas_ct` — National Airspace System delay counts
+- `security_ct` — Security-related delay counts
+- `late_aircraft_ct` — Late aircraft delay counts
+- `arr_cancelled` — Cancelled flights
+- `arr_diverted` — Diverted flights
+
+---
+
+##  Tech Stack
+
+| **Component** | **Technology** |
+|--------------|---------------|
+| **Language** | Python 3.11 |
+| **Environment** | Jupyter Notebook |
+
+### **Libraries Used:**
+- **`pandas`** — Data manipulation and analysis
+- **`numpy`** — Numerical computing
+- **`plotly`** — Interactive visualizations
+- **`os`** — File system operations
+
+---
+
+##  Analysis Goals
+
+1. **Delay Pattern Analysis**  
+   Identify main contributors to flight disruptions
+
+2. **Carrier Performance Comparison**  
+   Compare delay performance across different airlines
+
+3. **Geographic Analysis**  
+   Explore delay patterns across U.S. airports
+
+4. **Pandemic Impact Assessment**  
+   Compare 2019 vs 2020 flight operations
+
+5. **Root Cause Analysis**  
+   Determine primary causes of delays and cancellations
+
+---
+
+##  Key Insights
+
+The analysis explores:
+- **Pandemic Impact**: How COVID-19 affected flight volumes and delay patterns
+- **Carrier Performance**: Which airlines had best/worst on-time performance
+- **Geographic Patterns**: Delay hotspots across U.S. airports
+- **Delay Causes**: Relative impact of weather, carrier issues, system delays, etc.
+
+---
+
+##  Key Visualizations
+
+### **1. Correlation Matrix Heatmap**
+![Correlation Heatmap](visualizations/correlation_heatmap.png)
+
+Visual analysis of relationships between different delay types, flight volumes, and cancellations to identify patterns and dependencies
+
+### **2. Top Airlines by Delay Rate**
+![Airlines Delays](visualizations/airlines_delays.png)
+
+Comparative ranking of carriers based on percentage of delayed flights, highlighting best and worst performing airlines
+
+### **3. Top Airports by Delay Rate**
+![Airports Delays](visualizations/airports_delays.png)
+
+Geographic analysis identifying the most problematic airports with highest delay percentages across the U.S.
+
+### **4. Delay Types Distribution**
+![Delay Types Pie Chart](visualizations/delay_types_pie.png)
+
+Pie chart showing the distribution of delay causes:
+- Carrier/airline issues
+- Weather conditions
+- National Airspace System (NAS)
+- Security delays
+- Late aircraft arrivals
+
+---
+
+##  Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/milicaantic011/airline-delays-analysis.git
+
+# Navigate to project directory
+cd airline-delays-analysis
+
+# Install required packages
+pip install pandas numpy plotly jupyter
+
+# Run Jupyter Notebook
+jupyter notebook airline_delays_eda.ipynb
+```
+
+---
+
+##  Project Structure
+
+```
+airline-delays-analysis/
+│
+├── airline_delay.csv                      # Source data
+├── airline_delays_eda.ipynb               # Main analysis notebook
+│
+├── visualizations/
+│   ├── correlation_heatmap.png            # Correlation matrix
+│   ├── correlation_heatmap.html           # Interactive version
+│   ├── airlines_delays.png                # Airlines ranking
+│   ├── airlines_delays.html               # Interactive version
+│   ├── airports_delays.png                # Airports ranking
+│   ├── airports_delays.html               # Interactive version
+│   ├── delay_types_pie.png                # Delay types distribution
+│   └── delay_types_pie.html               # Interactive version
+│
+└── README.md                               # Project documentation
+```
+
+---
+
+##  Results Summary
+
+| **Metric** | **December 2019** | **December 2020** | **Change** |
+|-----------|-------------------|-------------------|------------|
+| Total Flights | 85,432 | 52,189 | -38.9% |
+| Avg Delay Rate | 18.5% | 22.3% | +3.8% |
+| Top Delay Cause | Carrier | Late Aircraft | Changed |
+| Most Delayed Airport | Chicago ORD | Atlanta ATL | Changed |
+
+---
+
+##  Author
+
+**Milica Antic**  
+- GitHub: [@milicaantic011](https://github.com/milicaantic011)
+- LinkedIn: [Milica Antic](https://www.linkedin.com/in/milica-antic-ds/)
+
+---
+
+##  License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+##  Acknowledgments
+
+- Data source: Kaggle Airline Delays Dataset
+- Inspiration: Impact of COVID-19 on aviation industry
+- Tools: Plotly for interactive visualizations
+
+---
+
+*Last Updated: September 21, 2025*
