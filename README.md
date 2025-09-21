@@ -105,22 +105,18 @@ Continental breakdown showing the distribution of total COVID-19 cases across di
 ##  Project Structure
 
 ```
+
 airline-delays-analysis/
 │
 ├── airline_delay.csv                      # Source data
 ├── airline_delays_eda.ipynb               # Main analysis notebook
+├── README.md                               # Project documentation
 │
-├── visualizations/
-│   ├── correlation_heatmap.png            # Correlation matrix
-│   ├── correlation_heatmap.html           # Interactive version
-│   ├── airlines_delays.png                # Airlines ranking
-│   ├── airlines_delays.html               # Interactive version
-│   ├── airports_delays.png                # Airports ranking
-│   ├── airports_delays.html               # Interactive version
-│   ├── delay_types_pie.png                # Delay types distribution
-│   └── delay_types_pie.html               # Interactive version
-│
-└── README.md                               # Project documentation
+└── visualizations/
+├── correlation_heatmap.png            # Correlation matrix visualization
+├── airlines_delays.png                # Top airlines by delay rate
+├── airports_delays.png                # Top airports by delay rate
+└── delay_types_pie.png                # Delay types distribution chart
 ```
 
 ---
