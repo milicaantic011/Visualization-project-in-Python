@@ -79,22 +79,15 @@ The analysis explores:
 ##  Key Visualizations
 
 ### **1. Correlation Matrix Heatmap**
-![Correlation Heatmap](visualizations/correlation_heatmap.png)
-
 Visual analysis of relationships between different delay types, flight volumes, and cancellations to identify patterns and dependencies
 
 ### **2. Top Airlines by Delay Rate**
-![Airlines Delays](visualizations/airlines_delays.png)
-
 Comparative ranking of carriers based on percentage of delayed flights, highlighting best and worst performing airlines
 
 ### **3. Top Airports by Delay Rate**
-![Airports Delays](visualizations/airports_delays.png)
-
 Geographic analysis identifying the most problematic airports with highest delay percentages across the U.S.
 
 ### **4. Delay Types Distribution**
-![Delay Types Pie Chart](visualizations/delay_types_pie.png)
 
 Pie chart showing the distribution of delay causes:
 - Carrier/airline issues
@@ -102,24 +95,6 @@ Pie chart showing the distribution of delay causes:
 - National Airspace System (NAS)
 - Security delays
 - Late aircraft arrivals
-
----
-
-##  Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/milicaantic011/airline-delays-analysis.git
-
-# Navigate to project directory
-cd airline-delays-analysis
-
-# Install required packages
-pip install pandas numpy plotly jupyter
-
-# Run Jupyter Notebook
-jupyter notebook airline_delays_eda.ipynb
-```
 
 ---
 
