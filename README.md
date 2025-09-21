@@ -128,7 +128,8 @@ COVID-19-Visualization-Project/
 
 ##  Author
 
-**Milica Antic**  
+Milica Antic
+
 - GitHub: [@milicaantic011](https://github.com/milicaantic011)
 - LinkedIn: [Milica Antic](https://www.linkedin.com/in/milica-antic-ds/)
 
@@ -148,4 +149,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Last Updated: September 21, 2025*
+Last Updated: September 21, 2025*
