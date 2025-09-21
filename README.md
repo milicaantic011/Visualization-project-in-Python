@@ -122,8 +122,9 @@ COVID-19-Visualization-Project/
 └── README.md                              # Project documentation
 
 ---
+```
 
-##  Project Structure
+##  Author
 
 Milica Antic
 
