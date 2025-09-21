@@ -104,9 +104,6 @@ A comprehensive data visualization and analysis notebook developed in **Visual S
 
 ---
 
-## 📁 Project Structure
-
-
 ##  Project Structure
 
 ```
@@ -126,7 +123,7 @@ COVID-19-Visualization-Project/
 
 ---
 
-##  Author
+##  Project Structure
 
 Milica Antic
 
