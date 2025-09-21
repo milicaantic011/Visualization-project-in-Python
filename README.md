@@ -94,7 +94,7 @@ Continental breakdown of total COVID-19 cases.
 
 ---
 
-## 💡 Solution
+##  Solution
 A comprehensive data visualization and analysis notebook developed in **Visual Studio Code**, with the final solution exported as a `*.ipynb` file containing:
 - Interactive visualizations using Plotly
 - Statistical analysis with Seaborn
@@ -106,61 +106,23 @@ A comprehensive data visualization and analysis notebook developed in **Visual S
 
 ## 📁 Project Structure
 
----
-##  Key Visualizations
-
-### **1. Cases by Country Map**
-![Cases by Country Map](Cases%20by%20Country%20Map.png)
-
-Interactive world map showing the geographic distribution of COVID-19 cases across different countries, highlighting the global spread of the pandemic.
-
-### **2. Cumulative Cases Dashboard**
-![Cumulative Cases Dashboard](Cumulative%20cases%20Dashboard.png)
-
-Comprehensive dashboard tracking the accumulation of COVID-19 cases over time, showing growth patterns and trend analysis.
-
-### **3. New COVID Cases Timeline**
-![New Covid Cases](New%20Covid%20Cases.png)
-
-Time series visualization displaying daily/weekly new case counts, helping identify waves and peaks throughout the pandemic.
-
-### **4. Population and Life Expectancy Analysis**
-![Population and Life Expectancy](Population%20and%20Life%20Expectancy.png)
-
-Analysis exploring the correlation between population demographics, life expectancy, and COVID-19 impact across different regions.
-
-### **5. Total Cases by Continent**
-![Total Cases by Continent Map](Total%20Cases%20by%20Continent%20Map.png)
-
-Continental breakdown showing the distribution of total COVID-19 cases across different world regions.
 
 ##  Project Structure
 
 ```
 
-airline-delays-analysis/
-│
-├── airline_delay.csv                      # Source data
-├── airline_delays_eda.ipynb               # Main analysis notebook
-├── README.md                               # Project documentation
-│
-└── visualizations/
-├── correlation_heatmap.png            # Correlation matrix visualization
-├── airlines_delays.png                # Top airlines by delay rate
-├── airports_delays.png                # Top airports by delay rate
-└── delay_types_pie.png                # Delay types distribution chart
-```
 
 ---
-
-##  Results Summary
-
-| **Metric** | **December 2019** | **December 2020** | **Change** |
-|-----------|-------------------|-------------------|------------|
-| Total Flights | 85,432 | 52,189 | -38.9% |
-| Avg Delay Rate | 18.5% | 22.3% | +3.8% |
-| Top Delay Cause | Carrier | Late Aircraft | Changed |
-| Most Delayed Airport | Chicago ORD | Atlanta ATL | Changed |
+COVID-19-Visualization-Project/
+│
+├── Visualization project in Python.ipynb  # Main notebook with analysis
+├── project_1_python.csv                   # Dataset file
+├── Cases by Country Map.png               # World map visualization
+├── Cumulative cases Dashboard.png         # Dashboard visualization
+├── New Covid Cases.png                    # Time series visualization
+├── Population and Life Expectancy.png     # Demographic analysis
+├── Total Cases by Continent Map.png       # Continental breakdown
+└── README.md                              # Project documentation
 
 ---
 
